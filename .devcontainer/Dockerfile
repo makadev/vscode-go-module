@@ -1,4 +1,5 @@
-FROM mcr.microsoft.com/devcontainers/go:1-1.24-bookworm
+# https://github.com/devcontainers/images/blob/84a5cfc254a7965a74907aaa269d4409fbb07f37/src/go/history/2.0.3.md#variant-125-trixie
+FROM mcr.microsoft.com/devcontainers/go:1.25-trixie
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
